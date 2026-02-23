@@ -164,7 +164,6 @@ button:hover {
   gap: 80px;
   padding: 60px;
   flex-wrap: wrap;
-  align-items: stretch;
 }
 .card1 {
   background-color: rgb(172, 153, 51);
@@ -389,9 +388,13 @@ header{
   justify-content: center;
   text-align: center;
 }
-.cardsContainer{
-  text-align: center;
+.boxContainer{
 justify-content: center;
+margin-right:  0px  auto;
+display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+
 }
 .card1{
   height: 350px;

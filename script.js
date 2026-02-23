@@ -7,8 +7,8 @@ questions.forEach(q => {
 
         const isOpen = btnA.classList.contains('show');
 
-        document.querySelectorAll('.').forEach(answer => {
-            answer.classList.remove('show');
+        document.querySelectorAll('.btnA').forEach(a => {
+            a.classList.remove('show');
         });
 
         if (!isOpen) {
