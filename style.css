@@ -20,6 +20,7 @@ max-width: 100%;
   height: 180px;
   transition: all 0.3s ease;
 }
+
 .icons:hover img{
   opacity: 1;
   transform: scale(1.02);
@@ -36,7 +37,13 @@ header {
   position: relative;
   text-align: center;
 }
-
+.addp p{
+    font-family: "Sniglet", system-ui;
+  font-size: 20px;
+}
+.addp{
+  margin: 10px;
+}
 .navBar {
   display: flex;
   justify-content: center;
@@ -136,7 +143,7 @@ button:hover {
   flex-direction: column;
   display: flex;
   background-color: rgb(170, 149, 28);
-  padding: 30px;
+  padding: 40px;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
@@ -153,7 +160,6 @@ button:hover {
 .icons i {
   font-size: 90px;
   margin-bottom: 20px;
-  transition: all 0.3s ease-in-out;
 }
 .herotwo {
   padding: 30px;
@@ -164,8 +170,64 @@ button:hover {
   font-size: 40px;
   margin-top: 30px;
 }
+.herotwo p{
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 90%;
+line-height: 15px;
+flex-wrap: wrap;
+font-weight: 290;
+  font-family: "Sniglet", system-ui;
+}
+.hash{
+margin: 60px;
+text-align: left;
+position: relative;
+}
+.alittle{
+  display: flex;
+  border-radius: 20px;
+  border: 2px solid rgb(163, 140, 7);
+  width: 90%;
+  max-width: 600px;
+  justify-content: space-between;
+  padding: 1%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  gap: 30px;
+  position: relative;
+  z-index: 1;
+}
+.hash .eg{
+position: absolute;
+width: 100px;
+left: 23%;
+z-index: 2;
+top: -25px;
+}
+.right img{
+  width: 190px;
+
+}
+.left p{
+    font-family: "Sniglet", system-ui;
+margin-top: 40px;
+text-align: justify;
+flex-wrap: wrap;
+}
+.alittle span{
+  color: rgb(163, 140, 7) ;
+  font-weight: bold;
+}
 .hr2 {
   margin-bottom: 0px;
+}
+.hr5{
+  margin-bottom: 60px;
+}
+.hr4{
+  margin-top: 40px;
 }
 .icons:hover {
   transform: scale(1.05);
@@ -248,7 +310,8 @@ button:hover {
   gap: 40px;
 }
 .boxItm {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+;
 }
 .btnQ {
   cursor: pointer;
@@ -285,7 +348,175 @@ footer{
   justify-content: center;
   padding: 10px;
 }
+.add{
+position: relative;
+text-align: center;
+justify-content: center;
+display: flex;
+max-width: 510px;
+margin: 0 auto;
+}
+.add img{
+width: 100%;
+z-index: 1;
+display: block;
+border-radius: 10px;
+border: 1px solid rgb(172, 153, 51) ;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.add button{
+  background-color: red;
+  padding: 2.9px;
+  transition: all 0.3s ease;
+position: absolute;
+z-index: 2;
+cursor: pointer;
+border-radius: 50%;
+}
+.add button:hover{
+  transform: scale(1.08);
+}
+.alex {
+
+top: 13%;
+background-color: red;
+right: 53%;
+}
+
+.marsa{
+  top: 12%;
+right: 68%;
+}
+.tanta{
+top: 16%;
+left: 52%;
+}
+.portsaid{
+  top: 12%;
+  right: 38%;
+}
+.alarish{
+  top: 13%;
+  right: 30%;
+
+}
+.ismalliya{
+  left: 59%;
+  top: 18%;
+}
+.suez{
+  left: 61%;
+  top: 23%;
+}
+.giza{
+  top:23% ;
+  left: 52%;
+
+}
+.cairo{
+  top: 26%;
+  left: 57%;
+}
+.tur{
+  top: 38%;
+      right: 30%;
+
+}
+.sharm{
+    top: 40%;
+      left: 72%;
+}
+.siwah{
+    top: 29%;
+left: 19%;
+}
+.fayoum{
+      top: 28%;
+left: 51%;
+}
+.banisewif{
+      top: 31%;
+left: 52%;
+}
+.almenya{
+      top: 40%;
+left: 50%;
+}
+.aswan{
+  top: 74%;
+  right: 34%;
+}
+.idfu{
+  top: 66%;
+    left: 64%;
+
+}
+.alkharaja{
+  top: 62%;
+    left: 49%;
+
+}
+.mut{
+  top: 62%;
+  left: 40%;
+}
+.luxor{
+  top: 60%;
+  right: 36%;
+}
+.qena{
+  top: 55%;
+  right: 36%;
+}
+.suhaj{
+  top: 53%;
+  right: 42%;
+}
+.hurghada{
+  top: 47%;
+  right: 29% ;
+}
+.asyut{
+  top: 47%;
+  left: 53%;
+}
+.sinai{
+  top: 32%;
+  right: 29%;
+}
 @media (max-width: 760px) {
+  .hash{
+    flex-direction: column;
+    display: flex;
+
+  }
+.eg{
+  display: none;
+}
+  .right{
+    order: 1;
+    
+  }
+  .left{
+    order: 2;
+  }
+
+  .alittle{
+    flex-direction: column;
+    width: fit-content;
+    gap: 0;
+    padding: 10px;
+  }
+  .right img{
+    margin: 0;
+  }
+  .left p{
+    text-align: justify;
+    margin: 0;
+  }
+  .add{
+    margin: 40px;
+  }
   #ul {
 text-align: center;
 justify-content: center;
@@ -376,6 +607,10 @@ display: none;
   height: 190px;
   width: 190px;
 }
+.addp p{
+    font-family: "Sniglet", system-ui;
+  font-size: 15px;
+}
   .four{
   display: flex;
   flex-direction: column !important;
@@ -391,6 +626,7 @@ align-items: center !important;
     margin-top: 70px;
     text-align: center;
     justify-content: center;
+    margin-bottom: 30px;
 
   }
   .btnA ,.btnQ{
@@ -430,7 +666,7 @@ margin: 0 auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.5);
   width: 90%;
 }
 .card1{
@@ -449,6 +685,39 @@ margin: 0 auto;
     justify-content: center !important;
     margin-top:90px ;
 padding: 0;
+
+}
+  .hash{
+    flex-direction: column;
+    display: flex;
+
+  }
+  .eg{
+    display: none;
+  }
+  .right{
+    order: 1;
+    
+  }
+  .left{
+    order: 2;
+  }
+
+  .alittle{
+    flex-direction: column;
+    width: fit-content;
+    gap: 0;
+    padding: 10px;
+  }
+  .right img{
+    margin: 0;
+  }
+  .left p{
+    text-align: justify;
+    margin: 0;
+  }
+video{
+      margin-bottom: 30px;
 
 }
 .boxContainer{

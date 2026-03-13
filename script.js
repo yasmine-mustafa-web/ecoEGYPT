@@ -15,6 +15,17 @@ questions.forEach(q => {
             btnA.classList.add('show');
         }
     });
+document.addEventListener('click', (e) => {
+
+  if (!e.target.closest('.btnQ') && !e.target.closest('.btnA')) {
+
+    document.querySelectorAll('.btnA').forEach(a => {
+      a.classList.remove('show');
+    });
+
+  }
+
+});
 });
 const menuBtn = document.getElementById('menu');
 const ul = document.getElementById('ul');
@@ -28,4 +39,6 @@ document.addEventListener('click', (e) => {
     ul.classList.remove('show');
   }
 });
-
+const video=document.querySelector('video');
+video.muted=true;
+video.volume=0;
