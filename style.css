@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: "outfit", sans-serif;
   color: black;
   box-sizing: border-box;
+    font-family: "Marmelad", sans-serif;
 }
 html ,body {
   overflow-x: hidden;
@@ -38,11 +38,12 @@ header {
   text-align: center;
 }
 .addp p{
-    font-family: "Sniglet", system-ui;
   font-size: 20px;
+    font-family: "Poppins" , sans-serif;
+
 }
 .addp{
-  margin: 10px;
+  margin: 35px;
 }
 .navBar {
   display: flex;
@@ -63,7 +64,7 @@ ul li {
   justify-content: center;
   font-size: larger;
   color: #000;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   
 }
@@ -96,6 +97,9 @@ ul li {
 }
 .date {
   color:  rgb(163, 140, 7);
+    -webkit-text-stroke: 0.1px  black;
+
+
 }
 .hero h4 {
   text-align: left;
@@ -249,7 +253,7 @@ flex-wrap: wrap;
   overflow: hidden;
   flex-direction: column;
   width: 300px;
-  height: 325px;
+  height: 365px;
   display: flex;
   transition: all 0.3s ease;
 }
@@ -346,7 +350,14 @@ footer{
   color: black;
   text-align: center;
   justify-content: center;
-  padding: 10px;
+  padding: 18px;
+  display: flex;
+}
+footer p{
+  font-size: 18px;
+}
+.aFooter{
+  text-decoration: none;
 }
 .add{
 position: relative;
@@ -484,7 +495,60 @@ left: 50%;
   top: 32%;
   right: 29%;
 }
+.museum h2{
+  margin-top: 40px;
+  margin-bottom: 20px;
+      font-family: "Marmelad", sans-serif;
+}
+.hzLine{
+  height: 1px;
+  width: 10%;
+  background-color: #000;
+  text-align: center;
+    margin: 0 auto;
+}
+.slider{
+  margin: 50px 0px;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  padding: 0px 0px;
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  border-top: 2px solid  rgb(170, 149, 28) ;
+  border-bottom: 2px solid  rgb(170, 149, 28);
+}
+.slideTrack{
+  display: flex;
+  width: calc(350px*11);
+  animation: scroll 35s linear infinite;
+}
+.slideTrack:hover{
+  animation-play-state: paused;
+}
+.salideImg{
+  width: 250px;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+}
+.salideImg img{
+  width: 380px;
+  height: 270px;
+}
+
+@keyframes scroll{
+  0%{transform: translateX(0)}
+  100%{
+    transform: translateX(calc(-250px*6));
+  }
+  
+}
 @media (max-width: 760px) {
+  .date {
+-webkit-text-stroke: 1.4px #000 ;
+      font-family: "Poppins" , sans-serif;
+margin-bottom: 0px;
+}
   .hash{
     flex-direction: column;
     display: flex;
@@ -557,37 +621,48 @@ position: absolute;
 }
    .hero h1{
     color: #fff;
+    line-height: 70px;
     -webkit-text-stroke: 2px  black;
-    display: inline-block;
     width: auto;
-    font-size: 70px;
+    font-size: 68px !important;
     text-align: center !important;
     justify-content: center !important;
-    margin-top:90px ;
+    margin-top:120px !important ;
+    margin-bottom: 0px;
+      font-family: "Poppins" , sans-serif;
+      margin-left: 30px;
+
 padding: 0;
   }
-  .hero h3 , .hero h4{
+  .hero h3{
     color: #fff;
     -webkit-text-stroke: #000 0.5px;
     white-space: nowrap;
     padding: 0;
-
+  font-family: "Poppins" , sans-serif;
+font-size: 20px;
     text-align: center !important;
     justify-content: center;
     align-items: center;
-   
+         margin-left: 30px;
+         margin-top: 20px;
+
   }
   .hero h4{
     padding: 0;
-    font-size: 17px;
+    font-size: 14px !important;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
-
+    color: #fff;
+    -webkit-text-stroke: #000 0.5px;
+    white-space: nowrap;
+    padding: 0;
+  font-family: "Poppins" , sans-serif;
+font-size: 20px;
   }
 .btn1 , .btn2{
-  white-space: nowrap;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
+ 
+           margin-left: 30px;
+
 }
   .hr{
 display: none;
@@ -608,8 +683,8 @@ display: none;
   width: 190px;
 }
 .addp p{
-    font-family: "Sniglet", system-ui;
   font-size: 15px;
+  font-family: "Poppins" , sans-serif;
 }
   .four{
   display: flex;
@@ -644,6 +719,8 @@ align-items: center !important;
   text-align: center;
   justify-content: center;
 padding: 0;
+margin-left: 30px;
+gap: 5px;
 }
 header{
   justify-content: center;
@@ -684,8 +761,8 @@ margin: 0 auto;
     text-align: center !important;
     justify-content: center !important;
     margin-top:90px ;
+    margin-bottom: 0;
 padding: 0;
-
 }
   .hash{
     flex-direction: column;
@@ -757,14 +834,14 @@ display: none;
   }
 .btn1 , .btn2{
   white-space: nowrap;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
+
 }
 .btns{
   text-align: center;
   justify-content: center;
 padding: 0;
+margin-left: 30px;
+gap: 5px;
 }
 .icons{
 padding: 20px;
@@ -791,4 +868,5 @@ padding: 20px;
 padding: 0;
 margin: 0 auto;
 }
+
 }
