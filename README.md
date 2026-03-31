@@ -8,24 +8,20 @@ Egypt 2030: The Future Vision
 
 ​🌟 Key Features
 
-​🏛️ Grand Egyptian Museum Slider: An interactive, smooth image slider displaying the architectural beauty of the GEM.
+​👁 Egypt vision 2030 
 
-​🗺️ Interactive Map of Egypt: A dynamic map where users can click on cities to reveal key information and statistics.
+🎗 projects done by the government 
 
-​👁️ Vision 2030 Section: A dedicated area explaining Egypt’s sustainable development goals through clean UI cards.
+🏛 Slider for the Egyptian Museum 
 
-​🎬 Multimedia Integration: Embedded high-quality video showcase of New Alamein City.
+🗺 A map including information about each city (Wikipedia)
 
-​❓ NAC FAQ: An accordion-style Frequently Asked Questions section regarding the New Administrative Capital.
+⁉️ Frequently Asked Questions (FAQ) about the new administrative city 
 
-​📂 Project Showcase: A gallery of various national mega-projects.
+📽 A video showing the the new administrative city 
 
-​🛠 Tech Stack
+⚒️ tech stack:
 
-​Frontend: HTML5 (Semantic tags like <section>, <article>, <video>).
-​
-Styling: CSS3 (Advanced Flexbox/Grid for the map and slider layouts).
-
-​Interactivity: JavaScript for FAQ accordions.
+Front-end: HTML , CSS AND JavaScript (for the FAQ)
 
 it is responsive for all screens📲
