@@ -29,6 +29,12 @@ document.addEventListener('click', (e) => {
 });
 const menuBtn = document.getElementById('menu');
 const ul = document.getElementById('ul');
+const li=document.querySelectorAll(".liMenu");
+li.forEach((item) =>{
+item.addEventListener("click",()=>{
+  ul.classList.remove("show");
+})
+})
 
 menuBtn.addEventListener('click', (e) => {
     ul.classList.toggle('show');
