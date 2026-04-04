@@ -61,7 +61,7 @@ ul li {
   text-align: left;
   padding: 60px;
   font-size: 50px;
-  margin: 0;
+  margin-top: 30px;
   padding-bottom: 10px;
 }
 .hr {
@@ -126,7 +126,7 @@ button:hover {
 .eg {
   position: absolute;
   width: 100px;
-  left: 25%;
+  left: 24%;
   z-index: 2;
   top: -25px;
 }
