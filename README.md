@@ -8,19 +8,17 @@ Egypt 2030: The Future Vision
 
 ​🌟 Key Features
 
-​👁 Egypt vision 2030 
+​Egypt vision 2030 
 
-🎗 projects done by the government 
+A slider for the Grand Egyptian Museum and a small brief about it 
 
-🏛 Slider for the Egyptian Museum 
+FAQ for the new administrative city in Egypt and a video showing it.
 
-🗺 A map including information about each city (Wikipedia)
+An interactive map that gives information about every city in Egypt.
 
-⁉️ Frequently Asked Questions (FAQ) about the new administrative city 
+3 projects done by the government.
 
-📽 A video showing the the new administrative city 
-
-⚒️ tech stack:
+tech stack:
 
 Front-end: HTML , CSS AND JavaScript (for the FAQ)
 
